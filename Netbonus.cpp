@@ -4,9 +4,9 @@ using namespace std;
 int main(){
 int salary,yrs,bonus;
 cout<<"Enter salary"<<endl;
-cin>>salary>>endl;
+cin>>salary;
 cout<<"Enter years"<<endl;
-cin>>yrs>>endl;
+cin>>yrs;
 if(yrs>10){
     bonus=(10*salary)/100;
 }
